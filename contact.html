@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — AstroTech College</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g1"><stop offset="0" stop-color="#ffd35f"/><stop offset="1" stop-color="#ff8a00"/></linearGradient></defs><circle cx="32" cy="32" r="30" fill="url(#g1)"/><path d="M32 12 L42 30 L32 24 L22 30 Z" fill="#071430"/><circle cx="32" cy="38" r="6" fill="#071430"/></svg><div><h1>AstroTech College</h1><p class="muted">Shaping Tomorrow's Innovators</p></div></a>
+      <button class="mobile-toggle" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="departments.html">Departments</a><a href="admissions.html">Admissions</a><a href="contact.html">Contact</a><a class="cta" href="admissions.html">Apply Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section" style="padding-top:36px">
+      <div class="section-title"><h2>Contact Us</h2><div class="muted">Get in touch with admissions & support</div></div>
+
+      <div style="display:grid;grid-template-columns:1fr 360px;gap:20px">
+        <div>
+          <p class="muted">For queries related to admission, placement or campus visits, use the form or contact the numbers below.</p>
+          <h4>Address</h4>
+          <p class="muted">12 Space Ave, New Delhi · 110088</p>
+          <h4>Phone</h4>
+          <p class="muted">+91 854935075</p>
+          <h4>Email</h4>
+          <p class="muted">admissions@astrotech.edu</p>
+        </div>
+
+        <aside>
+          <div style="background:var(--card-bg);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)">
+            <h4>Send a message</h4>
+            <form onsubmit="event.preventDefault();alert('Thanks — we received your message (demo)')">
+              <input placeholder="Your name" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);margin-bottom:8px" required/>
+              <input placeholder="Email" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);margin-bottom:8px" required/>
+              <textarea placeholder="Message" rows="5" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);margin-bottom:8px" required></textarea>
+              <button class="cta" style="width:100%">Send Message</button>
+            </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid"><div><h3>AstroTech College</h3></div><div></div><div></div></div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admissions — AstroTech College</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g1"><stop offset="0" stop-color="#ffd35f"/><stop offset="1" stop-color="#ff8a00"/></linearGradient></defs><circle cx="32" cy="32" r="30" fill="url(#g1)"/><path d="M32 12 L42 30 L32 24 L22 30 Z" fill="#071430"/><circle cx="32" cy="38" r="6" fill="#071430"/></svg><div><h1>AstroTech College</h1><p class="muted">Shaping Tomorrow's Innovators</p></div></a>
+      <button class="mobile-toggle" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="departments.html">Departments</a><a href="admissions.html">Admissions</a><a href="contact.html">Contact</a><a class="cta" href="admissions.html">Apply Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section" style="padding-top:36px">
+      <div class="section-title"><h2>Admissions</h2><div class="muted">How to apply</div></div>
+
+      <div style="display:grid;grid-template-columns:1fr 360px;gap:20px">
+        <div>
+          <h3>Undergraduate Admissions</h3>
+          <p class="muted">We accept national entrance scores and conduct our own counselling. Prospective students must submit transcripts and statement of purpose.</p>
+
+          <h3 style="margin-top:12px">Important Dates</h3>
+          <ul class="muted">
+            <li>Applications open: 1st June</li>
+            <li>Last date: 15th July</li>
+            <li>Counselling: August</li>
+          </ul>
+
+          <h3 style="margin-top:12px">Scholarships</h3>
+          <p class="muted">Merit-based scholarships and need-based aid are available.</p>
+        </div>
+
+        <aside>
+          <div style="background:var(--card-bg);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)">
+            <h4>Apply Now</h4>
+            <form onsubmit="event.preventDefault();alert('Application submitted (demo)');">
+              <input placeholder="Full name" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);margin-bottom:10px"/>
+              <input placeholder="Email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);margin-bottom:10px"/>
+              <select style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);margin-bottom:10px">
+                <option>Choose Program</option><option>Computer Science</option><option>Electronics</option>
+              </select>
+              <button class="cta" style="width:100%">Submit Application</button>
+            </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid"><div><h3>AstroTech College</h3></div><div></div><div></div></div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+

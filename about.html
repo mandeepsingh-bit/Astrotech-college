@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — AstroTech College</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Include the same header nav as index.html -->
+  <header class="header">
+    <nav class="nav">
+      <a class="brand" href="index.html" aria-label="AstroTech Home">
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#ffd35f"/><stop offset="1" stop-color="#ff8a00"/></linearGradient></defs>
+          <circle cx="32" cy="32" r="30" fill="url(#g1)"/><path d="M32 12 L42 30 L32 24 L22 30 Z" fill="#071430"/><circle cx="32" cy="38" r="6" fill="#071430"/>
+        </svg>
+        <div><h1>AstroTech College</h1><p class="muted">Shaping Tomorrow's Innovators</p></div>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="departments.html">Departments</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="contact.html">Contact</a>
+        <a class="cta" href="admissions.html">Apply Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section" style="padding-top:40px">
+      <div class="section-title"><h2>About AstroTech College</h2><div class="muted">Our mission & vision</div></div>
+      <div style="display:grid;grid-template-columns:1fr 380px;gap:20px">
+        <div>
+          <p class="muted">AstroTech College was founded to bridge academic excellence and industry-readiness. Our mission is to create engineers who can solve real-world problems through research, innovation and collaboration.</p>
+          <h3 style="margin-top:18px">Mission</h3>
+          <p class="muted">Provide a transformative education with a focus on practical skills and ethical leadership.</p>
+          <h3 style="margin-top:12px">Vision</h3>
+          <p class="muted">To be a centre of excellence in engineering and technology, driving innovation and entrepreneurship.</p>
+        </div>
+        <aside>
+          <div style="background:var(--card-bg);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)">
+            <h4>Facts</h4>
+            <p class="muted">Established: 2010<br>Campus: Urban · Modern labs · Hostel facilities</p>
+            <a class="cta" href="departments.html" style="display:inline-block;margin-top:10px">Explore Departments</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title"><h2>Leadership</h2><div class="muted">Faculty & administration</div></div>
+      <div class="card-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="dept"><h3>Dr. A. K. Verma</h3><p class="muted">Principal — Research & academic affairs</p></div>
+        <div class="dept"><h3>Prof. R. Singh</h3><p class="muted">Dean — Engineering</p></div>
+        <div class="dept"><h3>Ms. S. Rao</h3><p class="muted">Head — Industry Programs</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><h3>AstroTech College</h3><p class="muted">Address & contact</p></div>
+      <div><h4>Quick Links</h4></div>
+      <div><h4>Newsletter</h4></div>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

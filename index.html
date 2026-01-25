@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AstroTech College of Engineering</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <a class="brand" href="index.html" aria-label="AstroTech Home">
+        <!-- Bright SVG logo -->
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#ffd35f"/>
+              <stop offset="1" stop-color="#ff8a00"/>
+            </linearGradient>
+          </defs>
+          <circle cx="32" cy="32" r="30" fill="url(#g1)"/>
+          <path d="M32 12 L42 30 L32 24 L22 30 Z" fill="#071430"/>
+          <circle cx="32" cy="38" r="6" fill="#071430"/>
+        </svg>
+        <div>
+          <h1>AstroTech College</h1>
+          <p class="muted">Shaping Tomorrow's Innovators</p>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Open menu">☰</button>
+
+      <div class="nav-links" role="navigation" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="departments.html">Departments</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="contact.html">Contact</a>
+        <a class="cta" href="admissions.html">Apply Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-grid">
+        <div class="hero-card">
+          <div class="kicker">WELCOME</div>
+          <h2 class="lead">A modern engineering education with a future-first curriculum</h2>
+          <small class="muted">Industry-aligned courses • Strong placements • Research-driven labs</small>
+          <p class="hero-p">
+            AstroTech College blends academic rigor with hands-on project work, industry internships, and research opportunities in emerging technologies.
+          </p>
+
+          <div class="features">
+            <div class="feature">State-of-the-art Labs</div>
+            <div class="feature">Industry Mentors</div>
+            <div class="feature">Placement Support</div>
+            <div class="feature">Clubs & Events</div>
+          </div>
+
+          <div style="margin-top:22px;">
+            <a class="cta" href="admissions.html">Apply for Admission</a>
+            <a href="#programs" style="margin-left:14px;color:var(--muted);text-decoration:none;font-weight:600">View Programs →</a>
+          </div>
+        </div>
+
+        <aside class="hero-visual">
+          <div class="stat-row">
+            <div class="stat">
+              <h3>100+</h3>
+              <p class="muted">Industry Partners</p>
+            </div>
+            <div class="stat">
+              <h3>85%</h3>
+              <p class="muted">Avg Placement Rate</p>
+            </div>
+          </div>
+
+          <div class="stat-row">
+            <div class="stat">
+              <h3>10</h3><p class="muted">Research Labs</p>
+            </div>
+            <div class="stat">
+              <h3>20K+</h3><p class="muted">Alumni Network</p>
+            </div>
+          </div>
+
+          <div style="margin-top:8px" class="testimonial">
+            <div style="width:48px;height:48px;border-radius:8px;background:linear-gradient(90deg,#ffd35f,#ff8a00);"></div>
+            <div>
+              <strong>R. Sharma</strong>
+              <div class="muted" style="font-size:13px">"The practical approach helped me join my dream company."</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="programs" class="section container">
+      <div class="section-title">
+        <h2>Featured Departments</h2>
+        <div class="muted">Explore top programs</div>
+      </div>
+
+      <div class="card-grid">
+        <div class="dept">
+          <h3>Computer Science</h3>
+          <p>AI, ML, Data Science, Software Engineering with hands-on labs and capstone projects.</p>
+        </div>
+        <div class="dept">
+          <h3>Electronics & Communication</h3>
+          <p>Embedded systems, VLSI, Signal Processing and IoT-centered courses.</p>
+        </div>
+        <div class="dept">
+          <h3>Mechanical Engineering</h3>
+          <p>Design, manufacturing, robotics, and sustainable systems with lab-driven learning.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-title">
+        <h2>Why AstroTech?</h2>
+        <div class="muted">Practical learning • Research • Placement focus</div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 280px;gap:18px">
+        <div>
+          <p class="muted">AstroTech emphasizes project-based courses, internships with industry partners and research collaborations. Students work on real-world problems with mentorship from faculty and industry.</p>
+
+          <ul style="margin-top:16px;list-style:none;padding-left:0">
+            <li class="feature" style="margin-bottom:8px">Integrated Industry Projects</li>
+            <li class="feature" style="margin-bottom:8px">Active Student Clubs</li>
+            <li class="feature" style="margin-bottom:8px">Modern Campus Facilities</li>
+          </ul>
+        </div>
+
+        <aside>
+          <div style="background:var(--card-bg);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)">
+            <h3 style="margin:0">Admissions Open</h3>
+            <p class="muted" style="margin-top:8px">Apply for the next academic intake. Scholarships available for meritorious students.</p>
+            <a class="cta" href="admissions.html" style="display:inline-block;margin-top:12px">Start Application</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>AstroTech College</h3>
+        <p class="muted">Address: 12 Space Ave · New Delhi · 110088</p>
+        <p class="muted">Phone: +91 854935075 · Email: admissions@astrotech.edu</p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="departments.html">Departments</a> · <a href="admissions.html">Admissions</a> · <a href="contact.html">Contact</a></p>
+      </div>
+
+      <div>
+        <h4>Stay Connected</h4>
+        <p class="muted">Subscribe for updates</p>
+        <form onsubmit="event.preventDefault();alert('Subscribed!');">
+          <input placeholder="Email address" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.05);width:100%;margin-bottom:8px" />
+          <button class="cta" style="width:100%;border-radius:8px">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
